@@ -1,0 +1,42 @@
+{
+  "type": "module",
+  "name": "mcp-studies",
+  "version": "1.0.0",
+  "description": "Repo responsável por estudos relacionados a MCP (Model Context Protocol)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "bin": {
+    "weather": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoalmada/mcp-studies.git"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "weather",
+    "weather-api",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Diego Almada <github: @diegoalmada>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegoalmada/mcp-studies/issues"
+  },
+  "homepage": "https://github.com/diegoalmada/mcp-studies#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
