@@ -5,7 +5,8 @@
   "description": "Repo responsável por estudos relacionados a MCP (Model Context Protocol)",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && chmod 755 build/index.js"
+    "build": "tsc && chmod 755 build/index.js",
+    "dev": "node ./build/index.js"
   },
   "bin": {
     "weather": "./build/index.js"
